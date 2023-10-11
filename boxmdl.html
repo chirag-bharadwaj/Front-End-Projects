@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        div{
+            border-radius: 8px;
+            background-color: crimson;
+            width: 400px;
+            margin: auto;
+            padding: 15px;
+            box-shadow: 5px 5px 5px rgb(233, 41, 80);
+        }
+        h1{
+            border-radius: 8px;
+            box-shadow: 2px 2px 2px rgb(253, 112, 140) ;
+            width: 170px;
+            margin: auto;
+            background-color: rgb(255, 89, 122);
+            padding: 4px;
+        }
+        p{
+            border-radius: 8px;
+            background-color: rgb(255, 163, 182);
+            box-shadow: 3px 3px 3px rgb(253, 183, 197);
+            padding: 3px;
+            margin-top: 15px;
+            margin: auto;
+        }
+        h1:hover{
+            text-shadow:2px 2px 2px crimson;
+            cursor:none;
+        }
+        p:hover{
+            font-size:1.01rem;
+        }
+        .btn{
+            cursor: pointer;
+        }
+        button{
+            width: 100%;
+            border-radius: 8px;
+            padding: 8px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Box Model</h1> <br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime adipisci est nemo, provident in excepturi odit obcaecati veritatis beatae laudantium totam maiores sapiente harum ipsam, vitae consequuntur vero quidem accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, autem non iste esse commodi cum est ut eveniet nobis unde eaque, deleniti officia eligendi atque animi nemo saepe magni cumque?</p> <br>
+
+        
+        <button class="btn">Log In</button> <br> <br>
+        <a class="btn" href="btn">Read Me</a>
+
+    </div>
+    
+</body>
+</html>

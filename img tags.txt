@@ -1,0 +1,10 @@
+img tag:
+
+    src (source)
+    width (%, px)
+    height (%, px)
+
+link:
+    href - hyper link reference
+    target - _blank, _parent
+    URL - Universal resourse locator

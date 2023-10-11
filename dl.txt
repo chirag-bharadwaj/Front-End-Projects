@@ -1,0 +1,18 @@
+dl - Defination list
+dt - ...........term
+dd - .........discription
+
+<dl>
+        <dt>HTML</dt>
+        <dd>
+            this is a the outter body
+        </dd>
+        <dt>CSS</dt>
+        <dd>
+            this is the styling language
+        </dd>
+        <dt>JS</dt>
+        
+        <dt>SQL</dt>
+        <dt>DBMS</dt>
+    </dl>

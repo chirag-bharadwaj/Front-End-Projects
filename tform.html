@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta charset="ISO-8859-1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMS</title>
+  </head>
+
+  <body align="center">
+    <h1>FORMS</h1>
+    <form action="day3.html">
+      <label for="na">First Name</label>
+      <input id="na" type="text" placeholder="First Name" required /> <br />
+      <br />
+      <br />
+      Last Name: <input type="text" placeholder="Last Name" /> <br />
+      <br />
+      Email: <input type="email" required placeholder="xyz@gmail.com" /><br />
+      Gender: <br />
+      <br />
+      <label>
+        <input type="radio" name="sex" id="male" checked value="Male" />
+        <label for="male">male</label><br /><br />
+        <input type="radio" name="sex" id="Female" value="Female" />
+        <label for="Female">Female</label> <br /><br />
+        <input type="radio" name="sex" id="Others" value="Others" />
+        <label for="Others">Others</label>
+      </label>
+      <br />
+      <br />
+      <legend>
+        Phone Number:<input
+          type="tel"
+          maxlength="10"
+          value="+91"
+          minlength="13"
+        />
+      </legend>
+      Password: <input type="password" minlength="8" maxlength="16" /> <br />
+      <br />
+      Age: <input type="number" placeholder="Number" min="16" max="99" /> <br />
+      <br />
+      DOB: <input type="date" /> <br />
+      <br />
+      DOB: <input type="datetime-local" /> <br />
+      <br />
+      <fieldset>
+        Upload CV:<input type="file" /> <br />
+        <br />
+        Select your Car
+        <select name="car">
+          <option>BMW</option>
+          <option selected>Audi</option>
+        </select>
+        <br />
+        <br />
+      </fieldset>
+      enter your skills
+      <input type="checkbox" name="skills" id="java" /> Java
+      <label for="java"></label>
+      <input type="checkbox" name="skills" id="py" /> Python
+      <label for="py"></label> <input type="checkbox" name="skills" id="r" /> R
+      <label for="r"></label>
+      <input type="reset" />
+      <input type="submit" value="Vote" /> <br />
+      <br />
+      Please read this carefully and check the box:<input type="checkbox" />
+      <fieldset>
+        <legend>ENTER STATE</legend>
+        <select name="States">
+          <option value="">Karnataka</option>
+          <option value="">U.P.</option>
+          <option value="">A.P.</option>
+          <option value="">M.P.</option>
+        </select>
+      </fieldset>
+      <input type="range" />this is range <input type="color" /> this is color
+
+      <h6>&copy; &reg;</h6>
+      <h2 style="margin: 2px solid black">Bharadwaj's <sup>&reg;</sup></h2>
+    </form>
+    <h1>&#66;</h1>
+    <button>&uparrow;</button><br />
+    <button>&leftarrow;</button>
+    <button>&downarrow;</button>
+    <button>&rightarrow;</button>
+  </body>
+</html>

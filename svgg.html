@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG TITLE</title>
+</head>
+<style>
+    svg {
+        border: 2px solid rgb(201, 45, 45);
+    }
+</style>
+
+<body>
+    <h1>SVG TAG</h1>
+    <hr>
+    <!-- square, rectangle,circle, ellipse, line, polygon Default=500pxx500px-->
+    <svg width="500px" height="500px">
+        <rect x="400px" y="400px" width="250px" height="250px" style="border: 2px black" fill="gold" stroke="black"
+            stroke-width="5px" />
+
+    </svg>
+    <svg width="500px" height="500px">
+        <circle cx="250" cy="250" r="20" stroke="red" fill="red" stroke-width="2px">
+            <rect x="200px" y="200px" width="100px" height="250px" style="border: 2px black" />
+
+
+        </circle>
+    </svg>
+    <svg width="500px" height="500px">
+        <ellipse cx="250" cy="250" rx="150" ry="200" fill="red" />
+    </svg>
+    <svg width="500px" height="500px">
+        <!-- <circle cx="250" cy="250" r="20" stroke="red" fill="red" stroke-width="2px" > -->
+        <line x1="50" y1="50" x2="450" y2="450" stroke="red" stroke-width="2px" />
+        <line x1="450" y1="50" x2="50" y2="450" stroke="red" stroke-width="2px" />
+    </svg>
+    <svg width="500px" height="500px">
+        <polygon points="250,100,50,450,450,450" />
+    </svg>
+    </svg>
+    <svg width="500px" height="500px">
+        <polygon points="250,100,50,450,450,450" />
+        <polygon points="250,20,193,195,20,196,160,300,109,482,250,373,390,481,338,306,480,195,304,195" />
+    </svg>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <script>
+        let friends = ['Raghav', 'Ayushi', 'Chirag', 'Havish', 'Daiwik', 'Janhvi', 'Brinda', 'Wamika'];
+        for (let index = 0; index < friends.length; index++) {
+            console.log('hi folks' + friends[index]);
+
+        }
+    </script>
+</head>
+
+<body>
+    <table cellspacing="2px" style="border-radius: 10px;" cellpadding="10px" border-radius="8px" align="center"
+        border="1px" bgcolor="saffor" paddin="12px" bordercolor="blue">
+        <!-- default value: cellspacing =2px; cellpadding=1px -->
+        <thead>
+            <tr bgcolor="orange" align="center">
+                <th>NAME</th>
+                <th>ROLL NO</th>
+                <th>LOCATION</th>
+            </tr>
+
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>Ayushi</td>
+                <!-- <td>1RV05CS123</td> -->
+                <td colspan="2">Bengaluru</td>
+            </tr>
+            <tr>
+                <td>Raghav</td>
+                <td>1BM05MC059</td>
+                <td rowspan="2">New Delhi</td>
+            </tr>
+            <tr>
+                <td>Chirag</td>
+                <td>4AI13CS020</td>
+                <!-- <td>Bengaluru</td> -->
+            </tr>
+            <tr>
+                <td>Havish</td>
+                <td>2IITMC042</td>
+                <td>U.P.</td>
+            </tr>
+            <tr>
+                <td>Daiwik</td>
+                <td>4AI13CS020</td>
+                <td rowspan="2">Bengaluru</td>
+            </tr>
+            <tr>
+                <td>Brinda</td>
+                <td>1MBA007</td>
+                <!-- <td>Bengaluru</td> -->
+            </tr>
+            <tr>
+                <td>Jahnvi</td>
+                <td>4AI12CS050</td>
+                <td>Mumbai</td>
+            </tr>
+            <tr>
+                <td>Wamika</td>
+                <td>78</td>
+                <td>Bengaluru</td>
+            </tr>
+
+
+        </tbody>
+    </table>
+
+</body>
+
+</html>
